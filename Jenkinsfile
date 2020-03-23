@@ -27,6 +27,12 @@ pipeline {
       }
     }
 
+    stage('Security test') {
+      steps {
+        script {}
+      }
+    }
+
     stage('Deploy App') {
       steps {
         script {
