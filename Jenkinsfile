@@ -29,7 +29,13 @@ pipeline {
 
     stage('Security test') {
       steps {
-        echo 'Hello World'
+        echo 'Hello security test'
+      }
+    }
+
+    stage('SRE check') {
+      steps {
+        echo 'Hello SRE check'
       }
     }
 
