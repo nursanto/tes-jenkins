@@ -29,7 +29,7 @@ pipeline {
 
     stage('Security test') {
       steps {
-        script {}
+        echo 'Hello World'
       }
     }
 
